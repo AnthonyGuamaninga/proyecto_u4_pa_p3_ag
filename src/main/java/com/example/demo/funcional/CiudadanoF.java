@@ -1,6 +1,6 @@
 package com.example.demo.funcional;
 
-public class Ciudadano {
+public class CiudadanoF {
 	private String nombreCompleto;
 	private String ciudad;
 	public String getNombreCompleto() {

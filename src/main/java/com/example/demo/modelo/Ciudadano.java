@@ -29,6 +29,11 @@ public class Ciudadano {
 	private LocalDateTime fechaNacimiento;
 	
 	
+	@Override
+	public String toString() {
+		return "Ciudadano [id=" + id + ", nombre=" + nombre + ", apellido=" + apellido + ", fechaNacimiento="
+				+ fechaNacimiento + "]";
+	}
 	// SET Y GET
 	public Integer getId() {
 		return id;
